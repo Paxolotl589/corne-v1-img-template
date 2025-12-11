@@ -2,10 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: Paxolotl589 #new entry
+      url-base: https://github.com/Paxolotl589 #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
+    - name: corne-v1-img-template #new entry
+      remote: Paxolotl589 #new entry
+      revision: main #new entry
   self:
     path: config
+
+
+
