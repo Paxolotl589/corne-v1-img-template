@@ -11,9 +11,10 @@ manifest:
       import: app/west.yml
     - name: corne-v1-img-template #new entry
       remote: Paxolotl589 #new entry
-      revision: main #new entry
+      revision: master #new entry
   self:
     path: config
+
 
 
 
