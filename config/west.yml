@@ -2,18 +2,19 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: Paxolotl589 #new entry
-      url-base: https://github.com/Paxolotl589 #new entry
+    - name: Paxolotl589 #Repo owner
+      url-base: https://github.com/Paxolotl589 #owner url
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: corne-v1-img-template #new entry
-      remote: Paxolotl589 #new entry
-      revision: master #new entry
+    - name: corne-v1-img-template #Repo name
+      remote: Paxolotl589 #Repo owner
+      revision: master #what type of branch is this (master/main/etc.) top left in main repo page
   self:
     path: config
+
 
 
 
