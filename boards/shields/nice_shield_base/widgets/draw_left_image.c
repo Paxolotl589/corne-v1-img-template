@@ -9,6 +9,6 @@ void draw_left_image(lv_obj_t *canvas) {
 
     lv_img_set_src(art, &left_image);
 
-    lv_obj_align(art, LV_ALIGN_TOP_LEFT, 16, 0);
+    lv_obj_align(art, LV_ALIGN_TOP_LEFT, 0, 0);
 }
 
