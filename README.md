@@ -13,3 +13,6 @@ boards/shields/nice_shield_base/CMakeLists.txt
 boards/shields/nice_shield_base/Kconfig.defconfig
 boards/shields/nice_shield_base/Kconfig.shield
 boards/shields/nice_shield_base/nice_shield_base.zmk.yml
+
+
+<h2>Rotate right side image 180</h2>
