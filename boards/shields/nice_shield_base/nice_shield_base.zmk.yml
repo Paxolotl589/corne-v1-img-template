@@ -1,6 +1,6 @@
 file_format: "1"
-id: nice-shield-base
-name: nice!view_shield_base
+id: nice-shield-base #set to repo name
+name: nice!view_shield_base #set to repo name, underscore sensitive
 type: shield
 url: https://nicekeyboards.com/nice-view
 requires: [nice_view_header]
