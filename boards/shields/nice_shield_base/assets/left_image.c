@@ -82,8 +82,8 @@ const lv_img_dsc_t left_image = {
     .header.cf = LV_IMG_CF_INDEXED_1BIT,
     .header.always_zero = 0,
     .header.reserved = 0,
-    .header.w = 100,
-    .header.h = 69,
+    .header.w = 69,
+    .header.h = 100,
     .data_size = 620,
     .data = left_image_map,
 };
