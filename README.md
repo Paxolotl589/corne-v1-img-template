@@ -15,8 +15,9 @@ boards/shields/nice_shield_base/Kconfig.shield
 boards/shields/nice_shield_base/nice_shield_base.zmk.yml
 
 
-<h2>Rotate right side image 180, default image size is 80x69</h2>
+<h2>Rotate right side image 180, default image size is 80x69, max 126x69</h2>
 boards/shields/nice_shield_base/widgets/draw_right_image.c to adjust position after changing height
 
 80px -> 36 position
 Increase height -> decrease position
+
